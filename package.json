@@ -1,0 +1,15 @@
+{
+  "name": "raindrop",
+  "version": "1.0.0",
+  "description": "converts number to string",
+  "main": "numbertostring.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register ./test/raindroptest.js"
+  },
+  "author": "iwujianayo",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
